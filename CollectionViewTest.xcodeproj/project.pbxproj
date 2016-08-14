@@ -15,6 +15,10 @@
 		261414DA1D601744004AFDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261414D81D601744004AFDB1 /* LaunchScreen.storyboard */; };
 		261414E51D601745004AFDB1 /* CollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261414E41D601745004AFDB1 /* CollectionViewTestTests.m */; };
 		261414F01D601745004AFDB1 /* CollectionViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261414EF1D601745004AFDB1 /* CollectionViewTestUITests.m */; };
+		261415001D601B9A004AFDB1 /* TWImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 261414FE1D601B9A004AFDB1 /* TWImageViewCell.m */; };
+		261415011D601B9A004AFDB1 /* TWImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261414FF1D601B9A004AFDB1 /* TWImageViewCell.xib */; };
+		261415041D601E40004AFDB1 /* TWMovieFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 261415031D601E40004AFDB1 /* TWMovieFlowLayout.m */; };
+		261415071D602C99004AFDB1 /* TWCirCleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 261415061D602C99004AFDB1 /* TWCirCleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		261414EB1D601745004AFDB1 /* CollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		261414EF1D601745004AFDB1 /* CollectionViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTestUITests.m; sourceTree = "<group>"; };
 		261414F11D601745004AFDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261414FD1D601B9A004AFDB1 /* TWImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWImageViewCell.h; sourceTree = "<group>"; };
+		261414FE1D601B9A004AFDB1 /* TWImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWImageViewCell.m; sourceTree = "<group>"; };
+		261414FF1D601B9A004AFDB1 /* TWImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWImageViewCell.xib; sourceTree = "<group>"; };
+		261415021D601E40004AFDB1 /* TWMovieFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMovieFlowLayout.h; sourceTree = "<group>"; };
+		261415031D601E40004AFDB1 /* TWMovieFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMovieFlowLayout.m; sourceTree = "<group>"; };
+		261415051D602C99004AFDB1 /* TWCirCleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCirCleLayout.h; sourceTree = "<group>"; };
+		261415061D602C99004AFDB1 /* TWCirCleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCirCleLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				261414CE1D601744004AFDB1 /* AppDelegate.m */,
 				261414D01D601744004AFDB1 /* ViewController.h */,
 				261414D11D601744004AFDB1 /* ViewController.m */,
+				261415021D601E40004AFDB1 /* TWMovieFlowLayout.h */,
+				261415031D601E40004AFDB1 /* TWMovieFlowLayout.m */,
+				261415051D602C99004AFDB1 /* TWCirCleLayout.h */,
+				261415061D602C99004AFDB1 /* TWCirCleLayout.m */,
+				261414FD1D601B9A004AFDB1 /* TWImageViewCell.h */,
+				261414FE1D601B9A004AFDB1 /* TWImageViewCell.m */,
+				261414FF1D601B9A004AFDB1 /* TWImageViewCell.xib */,
 				261414D31D601744004AFDB1 /* Main.storyboard */,
 				261414D61D601744004AFDB1 /* Assets.xcassets */,
 				261414D81D601744004AFDB1 /* LaunchScreen.storyboard */,
@@ -244,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261414DA1D601744004AFDB1 /* LaunchScreen.storyboard in Resources */,
+				261415011D601B9A004AFDB1 /* TWImageViewCell.xib in Resources */,
 				261414D71D601744004AFDB1 /* Assets.xcassets in Resources */,
 				261414D51D601744004AFDB1 /* Main.storyboard in Resources */,
 			);
@@ -270,7 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261415071D602C99004AFDB1 /* TWCirCleLayout.m in Sources */,
 				261414D21D601744004AFDB1 /* ViewController.m in Sources */,
+				261415041D601E40004AFDB1 /* TWMovieFlowLayout.m in Sources */,
+				261415001D601B9A004AFDB1 /* TWImageViewCell.m in Sources */,
 				261414CF1D601744004AFDB1 /* AppDelegate.m in Sources */,
 				261414CC1D601744004AFDB1 /* main.m in Sources */,
 			);
